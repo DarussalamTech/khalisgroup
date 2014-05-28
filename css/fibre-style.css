@@ -200,3 +200,5 @@ footer { min-height:245px; background:#7bb944; width:100%; float:left; padding: 
 ul.dropdown-menu li a:hover { background: none !important; }
 
 ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; font-family: 'Candara Regular'; }
+
+.khalis-fibre-logo { margin-top:10px; }
