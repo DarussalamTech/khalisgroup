@@ -1,0 +1,18 @@
+
+.carousel-inner { background:url(../images/bg-slider-2.png) no-repeat; width:647px !important; }
+
+.carousel-inner-product { width:386px !important; }
+
+.carousel-inner-product .item { -webkit-transition: opacity 3s !important; -moz-transition: opacity 3s !important; -ms-transition: opacity 3s !important; -o-transition: opacity 3s !important; transition: opacity 3s !important; }
+
+.carousel-inner-product .active.left { left:0 !important;opacity:0 !important;z-index:2 !important; }
+
+.carousel-inner-product .next { left:0 !important;opacity:1 !important;z-index:1 !important; }
+
+@media (max-width:768px) {
+	
+	.carousel-inner { width:100% !important; background-size:contain; }
+	
+	.carousel-inner-product { width:100% !important; background-size:contain; }
+	
+	}

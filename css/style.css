@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{padding:0; margin:0;}
+
+@font-face { font-family: 'Candara Regular'; src: url('../fonts/Candara.eot'); src: url('../fonts/Candara.eot?#iefix') format('eot'), url('../fonts/Candara.ttf') format('truetype'), url('../fonts/Candara.otf') format('otf'); }
+
+@font-face { font-family: 'Candara Bold'; src: url('../fonts/Candarab.eot'); src: url('../fonts/Candarab.eot?#iefix') format('eot'), url('../fonts/Candarab.ttf') format('truetype'), url('../fonts/Candarab.otf') format('otf'); }
+
+@font-face { font-family: 'Candara Italic'; src: url('../fonts/Candara-Italic.eot'); src: url('../fonts/Candara-Italic.eot?#iefix') format('eot'), url('../fonts/Candara-Italic.ttf') format('truetype'), url('../fonts/Candara-Italic.otf') format('otf'); }
+
+body .khalis-main-page { background: #FFF url(../images/comming_soon_pic.png) repeat; background-size:cover; width:100%; height:100%; overflow:hidden; }
+
+.khalis_img { width:100%; height:100%; text-align:center; position:relative; background:url(../images/heart_pic.png) no-repeat right bottom; padding-top:8%; padding-bottom:9%; }
+
+.khalis_img img { margin: 0 auto; }
+
+.enter-btn { margin-top:20px; display:inline-block; }
+
+header { min-height:30px; width:100%; float:left; background:#f6c225; border-bottom:1px solid #e2e2e2; }
+
+.affix{ z-index:100000; }
+
+.navigation { float:left; width:100%; min-height:129px; background: #dad0bc url(../images/nav-bg.png); border-top: 1px solid #979797; border-bottom: 1px solid #979797; }
+
+.main-navbar { background: none !important; border: none !important; padding-top:40px; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; border-bottom-width: 1px -24px 1px -3px !important; border-bottom: solid #de312f !important;}
+
+.nav > li { padding: 10px 9px 1px 9px !important; }
+
+.nav > li > a { padding: 0 2px !important; color:#261a05 !important; font-size:17px !important; font-family: 'Candara Regular'; text-shadow: 0.5px 0.866px 0 #fffbf1; }
+
+.nav > li > a:hover { border-bottom: solid #de312f !important; }
+
+.nav > li > a:active { border-bottom: solid #de312f !important; }
+
+.nav > li > a:focus { border-bottom: solid #de312f !important; }
+
+.nav > li > a:visited { border-bottom: solid #de312f !important; }
+
+.slider-part { float:left; width:100%; background: #FFF url(../images/main-bg.png) repeat; min-height:534px; padding:20px 0; position:relative; }
+
+.slider-right-img { position:absolute; right: 34px; bottom:10px; z-index:10000; }
+
+.slider-content { padding-top: 310px; margin-left:-25px; }
+
+.slider-content h2 { padding: 0; margin: 0; color:#bc2628; font-size:24px; font-family: 'Candara Bold'; line-height:7px;  }
+
+.slider-content h3 { padding: 0 0 5px 0; margin: 0; color:#cd912b; font-size:60px; font-family: 'Candara Bold'; line-height:64px; }
+
+.slider-content p { padding: 0 0px 0 0; margin: 0; color:#383838; font-family: 'Candara Regular'; font-size:15px; line-height:15px; }
+
+.khalis-companies h4 { font-family: 'Candara Bold'; color:#cd912b; font-size:29px; padding: 0; margin: 0; border-bottom: 1px solid #efd48c; }
+
+.khalis-items { padding: 20px 0 !important; }
+
+.item-left { float:left; width:120px; padding: 0; margin: 0; }
+
+.item-right { float:left; width:200px; padding: 0 0 0 5px; margin: 0; }
+
+.item-right h3 { padding: 0 20px 0 0; margin: 0; color:#cd912b; font-family: 'Candara Bold'; font-size:24px; line-height:18px; }
+
+.item-right h3 a { text-decoration:none; color:#cd912b; }
+
+.item-right p { padding: 0; margin: 7px 0; color:#454444; font-family: 'Candara Regular'; line-height:13px; font-size:13px; }
+
+.item-right a img { padding: 15px 0 0 0; margin: 0; }
+
+footer { min-height:245px; background:#dc1c1f; width:100%; float:left; padding: 10px 0; margin: 0; }
+
+.main-footer { padding: 0 !important; }
+
+.quick-links h4, .contact-us h4, .get-social h4 { border-bottom: 1px solid #b11719; color:#ffffff; font-size:16px; font-family: 'Candara Regular'; padding: 5px 0 5px 20px; margin: 0; }
+
+.quick-links ul { padding: 10px 0; margin: 0; }
+
+.quick-links ul li { padding: 0; margin: 0; list-style:none; line-height:17px; }
+
+.quick-links ul li a { color:#000; font-size:15px; font-family: 'Candara Regular'; padding: 0 0 0 20px; margin: 0; text-decoration:none; }
+
+.quick-links ul li a:hover { color:#f4e0b7; }
+
+.contact-us p { color:#000000; font-size:15px; font-family: 'Candara Bold'; padding: 5px 0; margin: 0; line-height:17px; width:100%; float:left; }
+
+.contact-us p span { color:#000; font-family: 'Candara Regular'; padding: 0 0 0 20px; margin: 0; }
+
+.contact-us p span a { color:#000; text-decoration:none; }
+
+.adress { float:left; width:85%; }
+
+.get-social a img { padding: 0; margin: 10px 12px; }
+
+.bottom-footer { border-top:1px solid #6e2123; padding: 0; margin: 40px 0 0 0; }
+
+.bottom-footer-left-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 10px 0 0 0; margin: 0; text-align:left; }
+
+.bottom-footer-right-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 10px 0 0 0; margin: 0; text-align:right; }
+
+.bottom-footer-right-p p a { color:#ffffff; text-decoration:none; }
+
+.contact-us-main-text { min-height:46px; padding: 0; margin: 40px 0 0 0; }
+
+.contact-us-main-text h4 { color:#cd912b; font-size:40px; font-family: 'Candara Bold'; padding: 0; margin: 0; }
+
+.contact-us-main-text p { padding: 10px 0 0 30px; margin: 0; font-family: 'Candara Italic'; color:#000000; font-size:15px; }
+
+.contact-us-form { min-height:533px; width:100%; margin: 0px 0 0px 0; }
+
+.contact-us-form table tr td { font-family: 'Candara Regular'; font-size:16px; padding:10px 15px; }
+
+#contactForm { padding-top:80px; }
+
+.form-control { border-radius: 0 !important; }
+
+.btn { border-radius:0 !important; }
+
+.submit-form-btn { background: #f6c225; padding: 3px 25px !important; font-family: 'Candara Regular'; }
+
+.submit-form-btn:hover { background:#DC1C1F; color:#FFF !important; }
+
+.left-contact-us { margin-left:30px; }
+
+.head-office { border-bottom:1px solid #cfcfcf; padding-top:40px; padding-bottom:10px; }
+
+.head-office h3 { color:#c9292a; font-size:20px; font-family: 'Candara Regular'; padding: 0; margin: 0; }
+
+.head-office article { color:#454444; font-size:16px; font-family: 'Candara Regular'; padding: 10px 60px 10px 0; margin: 0; }
+
+.head-office p { color:#cd4142; font-size:18px; font-family: 'Candara Regular'; padding: 2px 0; margin: 0; }
+
+.head-office p span { color:#000000; }
+
+.contact-us-banner { background:#fdce40; min-height:250px; }
+
+.product-banner { background:#fdce40; min-height:250px; }
+
+.contact-us-banner-img img { position:absolute; z-index:1000; text-align:right; right: 0; }
+
+.product-banner-img { height:400px !important; z-index:10000; position:absolute; }
+
+.product-banner-img img { position:absolute; z-index:1000; text-align:right; right: 0; }
+
+.contact-us-banner-content { padding: 70px 0; }
+
+.contact-us-banner-content h2 { padding: 0; margin: 0; color:#bc2628; font-size:24px; font-family: 'Candara Bold'; }
+
+.contact-us-banner-content h3 { padding: 0; margin: 0; color:#ffffff; font-size:60px; font-family: 'Candara Bold'; line-height:44px; }
+
+.contact-us-banner-content p { padding: 0; margin: 0; color:#000000; font-size:15px; font-family: 'Candara Regular'; }
+
+#map-canvas { border: 1px solid #afafaf; margin-top:15px; }
+
+.about-us-main-text { min-height:46px; padding: 0; margin: 40px 0 0 0; }
+
+.about-us-main-text h4 { color:#cd912b; font-size:40px; font-family: 'Candara Bold'; padding: 0; margin: 0; }
+
+.about-us-main-text p { padding: 10px 0 0 0px; margin: 0; font-family: 'Candara Regular'; color:#000000; font-size:15px; }
+
+.about-us-main-text article { color:#000000; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 0 0; }
+
+.about-us-main-text h5 { font-family: 'Candara Bold'; padding: 0px 0 20px 0; margin: 0; color:#b27711; font-size:50px; border-bottom: 1px solid #cfcfcf; }
+
+.about-us-main-text h5 span { color:#de312f; font-size:40px; }
+
+.about-us-main-text-middle { padding: 10px 0 0 0; margin: 0; }
+
+.about-us-main-text-middle p { padding: 10px 0 0 0px; margin: 0; font-family: 'Candara Regular'; color:#000000; font-size:15px; }
+
+.about-us-main-text-middle article { color:#000000; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 0 0; }
+
+.about-us-main-text-middle h5 { font-family: 'Candara Bold'; padding: 0px 0 20px 0; margin: 0; color:#b27711; font-size:36px; border-bottom: 1px solid #cfcfcf; }
+
+.about-us-main-text-middle h5 span { color:#de312f; font-size:40px; }
+
+.about-us-main-text-last { padding: 5px 0 35px 0; margin: 0; }
+
+.about-us-main-text-last p { padding: 10px 0 0 0px; margin: 0; font-family: 'Candara Regular'; color:#000000; font-size:15px; }
+
+.about-us-main-text-last article { color:#000000; font-size:24px; font-family: 'Candara Regular'; padding: 10px 0 0 0; }
+
+.dropdown:hover .dropdown-menu { display: block !important; }
+
+.dropdown-menu { background: none !important; border:none !important; box-shadow:none !important; padding-top:57px !important; z-index:1000000 !important; }
+
+.dropdown-menu li { background:#DAD0BC !important; border-bottom:1px solid #666; }
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu { margin-top: 0; }
+
+ul.dropdown-menu li a:hover { background: none !important; }
+
+ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; font-family: 'Candara Regular'; text-shadow: 0.5px 0.866px 0 #fffbf1; }
+
+.product-top-text { border-bottom: 1px solid #cfcfcf; padding-bottom:20px !important; }
+
+.products { border-bottom: 1px solid #cfcfcf; float:left; width:100%; padding: 10px 0; }
+
+.products h4 { padding: 0px 0 10px 28px; margin: 0; color:#cd912b; font-size:36px; font-family: 'Candara Bold'; }
+
+.inner-products { padding: 0; margin: 0; text-align:center; }
+
+.inner-products h5 { padding: 10px 0 0 0; margin: 0; color:#c3913c; font-size:20px; font-family: 'Candara Bold'; }
+
+.inner-products h5 span {}
+
+.inner-products h6 { padding: 0; margin: 0; color:#000000; font-size:14px; font-family: 'Candara Bold'; }
+
+.raw-material { padding: 20px 0 20px 28px; margin: 0; float:left; width:100%; }
+
+.raw-material h3 { color:#cd912b; font-size:36px; font-family: 'Candara Bold'; padding: 0; margin: 0; }
+
+.raw-material p { color:#000000; font-size:20px; font-family: 'Candara Regular'; padding: 0; margin: 0; }
+
+.raw-material ul { padding: 10px 0 10px 35px; margin: 0; }
+
+.raw-material ul li { color:#222222; font-size:20px; font-family: 'Candara Bold'; padding: 0; margin: 0; }
