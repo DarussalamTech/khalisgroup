@@ -19,25 +19,31 @@ body .khalis-main-page { background: #FFF url(../images/comming_soon_pic.png) re
 
 header { min-height:30px; width:100%; float:left; background:#f6c225; border-bottom:1px solid #e2e2e2; }
 
-.affix{ z-index:100000; }
+.affix { z-index:100000; }
+
+/* #affix-top-part { top:100px; } */
+
+.dropdown-main-toggle { float:left; position:absolute !important; }
 
 .navigation { float:left; width:100%; min-height:129px; background: #dad0bc url(../images/nav-bg.png); border-top: 1px solid #979797; border-bottom: 1px solid #979797; }
 
 .main-navbar { background: none !important; border: none !important; padding-top:40px; }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; border-bottom-width: 1px -24px 1px -3px !important; border-bottom: solid #de312f !important;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; border-bottom-width: 1px -24px 1px -3px !important; border-bottom: solid #de312f !important; }
 
-.nav > li { padding: 10px 9px 1px 9px !important; }
+.nav > li { padding: 10px 6px 1px 6px !important; }
 
 .nav > li > a { padding: 0 2px !important; color:#261a05 !important; font-size:17px !important; font-family: 'Candara Regular'; text-shadow: 0.5px 0.866px 0 #fffbf1; }
 
-.nav > li > a:hover { border-bottom: solid #de312f !important; }
+.nav > li > a:hover { border-bottom: solid #de312f; }
 
-.nav > li > a:active { border-bottom: solid #de312f !important; }
+.dropdown > a:hover { border-bottom:none !important; }
 
-.nav > li > a:focus { border-bottom: solid #de312f !important; }
+.nav > li > a:active { border-bottom: solid #de312f; }
 
-.nav > li > a:visited { border-bottom: solid #de312f !important; }
+.nav > li > a:focus { border-bottom: solid #de312f; }
+
+.nav > li > a:visited { border-bottom: solid #de312f; }
 
 .slider-part { float:left; width:100%; background: #FFF url(../images/main-bg.png) repeat; min-height:534px; padding:20px 0; position:relative; }
 
@@ -79,7 +85,7 @@ footer { min-height:245px; background:#dc1c1f; width:100%; float:left; padding: 
 
 .quick-links ul li a { color:#000; font-size:15px; font-family: 'Candara Regular'; padding: 0 0 0 20px; margin: 0; text-decoration:none; }
 
-.quick-links ul li a:hover { color:#f4e0b7; }
+.quick-links ul li a:hover { color:#ffffff; }
 
 .contact-us p { color:#000000; font-size:15px; font-family: 'Candara Bold'; padding: 5px 0; margin: 0; line-height:17px; width:100%; float:left; }
 
@@ -93,7 +99,7 @@ footer { min-height:245px; background:#dc1c1f; width:100%; float:left; padding: 
 
 .bottom-footer { border-top:1px solid #6e2123; padding: 0; margin: 40px 0 0 0; }
 
-.bottom-footer-left-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 10px 0 0 0; margin: 0; text-align:left; }
+.bottom-footer-left-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 27px 0 0 0; margin: 0; text-align:left; }
 
 .bottom-footer-right-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 10px 0 0 0; margin: 0; text-align:right; }
 
@@ -187,7 +193,7 @@ footer { min-height:245px; background:#dc1c1f; width:100%; float:left; padding: 
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu { margin-top: 0; }
 
-ul.dropdown-menu li a:hover { background: none !important; }
+ul.dropdown-menu li a:hover { background: #ebe4d5 !important; }
 
 ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; font-family: 'Candara Regular'; text-shadow: 0.5px 0.866px 0 #fffbf1; }
 
@@ -214,3 +220,25 @@ ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; fon
 .raw-material ul { padding: 10px 0 10px 35px; margin: 0; }
 
 .raw-material ul li { color:#222222; font-size:20px; font-family: 'Candara Bold'; padding: 0; margin: 0; }
+
+.management-content { padding:15px 0 10px 0; margin: 0; border-bottom: 1px solid #cfcfcf; width:100%;  }
+
+.management-content h3 { color:#de312f; font-size:24px; font-family: 'Candara Bold'; padding: 0 0 10px 0; margin: 0; }
+
+.management-content p { color:#000000; font-size:16px; font-family: 'Candara Regular'; padding:0px 0 10px 0; margin: 0; line-height:17px; }
+
+.last-management-content { border-bottom: none !important; padding-bottom:80px; }
+
+.management-text { margin-top:20px !important; }
+
+.cooking-oil-companies { border-top: 1px solid #cfcfcf; border-bottom: 1px solid #cfcfcf; padding: 10px 0; width:100%; float:left; margin: 20px 0;  }
+
+.cooking-oil-companies h3 { color:#cd912b; font-size:36px; font-family: 'Candara Bold'; padding: 0 0 10px 0; margin: 0; }
+
+.oil-companies { text-align:center; padding: 5px 0; margin: 0; height:135px; }
+
+.oil-companies-2 { text-align:center; padding: 20px 0 0 0 !important; margin: 0; height:55px !important; }
+
+.cooking-oil-images { height:80px; }
+
+.oil-companies h4 { color:#c3913c; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 10px 0; margin: 0; }

@@ -9,6 +9,12 @@
 
 .carousel-inner-product .next { left:0 !important;opacity:1 !important;z-index:1 !important; }
 
+.carousel-inner .item { -webkit-transition: opacity 3s !important; -moz-transition: opacity 3s !important; -ms-transition: opacity 3s !important; -o-transition: opacity 3s !important; transition: opacity 3s !important; }
+
+.carousel-inner .active.left { left:0 !important;opacity:0 !important;z-index:2 !important; }
+
+.carousel-inner .next { left:0 !important;opacity:1 !important;z-index:1 !important; }
+
 @media (max-width:768px) {
 	
 	.carousel-inner { width:100% !important; background-size:contain; }

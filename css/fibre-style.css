@@ -27,15 +27,25 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .affix{ z-index:100000; }
 
-.navigation { float:left; width:100%; min-height:129px; background: #ffffff; }
+.navigation { float:left; width:100%; min-height:129px; background: #ffffff; border-bottom: 1px solid #D5D5D5; }
 
 .main-navbar { background: none !important; border: none !important; padding-top:40px; }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; border-bottom: solid #57a746 !important; }
 
-.nav > li { padding: 10px 9px 1px 9px !important; }
+.nav > li { padding: 10px 6px 1px 6px !important; }
 
 .nav > li > a { padding: 0 2px !important; color:#57a746 !important; font-size:17px !important; font-family: 'Candara Regular'; }
+
+.dropdown > a:hover { border-bottom:none !important; }
+
+.nav > li > a:hover { border-bottom: solid #57a746; }
+
+.nav > li > a:active { border-bottom: solid #57a746; }
+
+.nav > li > a:focus { border-bottom: solid #57a746; }
+
+.nav > li > a:visited { border-bottom: solid #57a746; }
 
 .fibre-banner { float:left; width:100%; background: #FFF url(../images/fibre-bg.png) repeat; height:400px; background-size:cover; position:relative; }
 
@@ -95,7 +105,7 @@ footer { min-height:245px; background:#7bb944; width:100%; float:left; padding: 
 
 .quick-links ul li a { color:#000; font-size:15px; font-family: 'Candara Regular'; padding: 0 0 0 20px; margin: 0; text-decoration:none; }
 
-.quick-links ul li a:hover { color:#f4e0b7; }
+.quick-links ul li a:hover { color:#ffffff; }
 
 .contact-us p { color:#000000; font-size:15px; font-family: 'Candara Bold'; padding: 5px 0; margin: 0; line-height:17px; width:100%; float:left; }
 
@@ -109,7 +119,7 @@ footer { min-height:245px; background:#7bb944; width:100%; float:left; padding: 
 
 .bottom-footer { padding: 0; margin: 0px 0 0 0; background:#312c1d; }
 
-.bottom-footer-left-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 5px 0 5px 0; margin: 0; text-align:left; }
+.bottom-footer-left-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 22px 0 5px 0; margin: 0; text-align:left; }
 
 .bottom-footer-right-p p { color:#ffffff; font-size:14px; font-family: 'Candara Regular'; padding: 5px 0 5px 0; margin: 0; text-align:right; }
 

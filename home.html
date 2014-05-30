@@ -25,19 +25,30 @@
                <div>
                   <ul class="nav navbar-nav">
                      <li class="active"><a href="home.html">Home</a></li>
-                     <li><a href="#">-</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="#">-</a></li>
-                     <li class="dropdown"><a href="companies.html" data-toggle="dropdown" class="dropdown-toggle">Our Companies</a>
-                         <ul class="dropdown-menu" id="menu1">
-                            <li><a href="khalis-fibre.html">Khalis Fibre</a></li>
-                            <li><a href="#">Khalis Oil</a></li>
-                            <li><a href="#">Tahir Omer</a></li>
-                        </ul>
+                     <li>-</li>
+                     <li class="dropdown"><a href="about.html">About</a>
+                     	<div class="dropdown-main-toggle">
+                             <ul class="dropdown-menu" id="menu1">
+                             	<li><a href="management.html">Management</a></li>
+                                <li><a href="#">Vision</a></li>
+                            </ul>
+                        </div>
                   	</li>
-                     <li><a href="#">-</a></li>
+                     <li>-</li>
+                     <li class="dropdown"><a href="companies.html" data-toggle="dropdown" class="dropdown-toggle">Our Companies</a>
+                     	<div class="dropdown-main-toggle">
+                             <ul class="dropdown-menu" id="menu1">
+                                <li><a href="khalis-fibre.html">Khalis Fibre</a></li>
+                                <li><a href="#">Khalis Oil</a></li>
+                                <li><a href="#">Tahir Omer</a></li>
+                            </ul>
+                        </div>
+                  	</li>
+                     <li>-</li>
+                     <li><a href="clients.html">Clients</a></li>
+                     <li>-</li>
                      <li><a href="product.html">Products</a></li>
-                     <li><a href="#">-</a></li>
+                     <li>-</li>
                      <li><a href="contact-us.html">Contact Us</a></li>
                   </ul>
                </div>
@@ -45,7 +56,7 @@
         </div>
     </div>
 </div>
-<div class="slider-part main-slider-part">
+<div class="slider-part main-slider-part" id="affix-top-part">
 	<div class="container">
     	<div class="col-lg-8">
         	<div id="carousel_fade" class="carousel slide carousel-fade">
@@ -125,7 +136,6 @@
                     <ul>
                     	<li><a href="home.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="companies.html">Our Companies</a></li>
                         <li><a href="product.html">Products</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                     </ul>
@@ -134,7 +144,7 @@
             <div class="col-lg-4 main-footer">
             	<div class="contact-us">
                 	<h4 style="padding-left:30px;">Contact Us</h4>
-                    <p><b style="float:left; width:10px;">P:</b><span class="adress">+92-42-35314720-9</span></p>
+                    <p><b style="float:left; width:10px;">P:</b><span class="adress">+92-42 111-KHA LIS - 111-542-547</span></p>
                     <p><b style="float:left; width:10px;">E:</b><span class="adress"><a href="#">toi@khalisgroup.com</a></span></p>
                     <p><b style="float:left; width:10px;">W:</b><span class="adress"><a href="#">www.khalisgroup.com</a></span></p>
                     <p><b style="float:left; width:10px;">A:</b><span class="adress">786 - Shahrah-e-Nazaria-e-Pakistan, Opposite Expo Center, Lahore, Pakistan</span></p>
@@ -143,8 +153,8 @@
             <div class="col-lg-4 main-footer">
             	<div class="get-social">
                 	<h4>Get Social</h4>
+                    <a href="https://www.facebook.com/pages/Khalis-Group/247104348706751"><img src="images/facebook.png" onmouseover="this.src='images/facebook-hover.png'" onmouseout="this.src='images/facebook.png'"></a>
                     <a href="#"><img src="images/tweet.png" onmouseover="this.src='images/tweet-hover.png'" onmouseout="this.src='images/tweet.png'"></a>
-                    <a href="#"><img src="images/facebook.png" onmouseover="this.src='images/facebook-hover.png'" onmouseout="this.src='images/facebook.png'"></a>
                     <a href="#"><img src="images/google-plus.png" onmouseover="this.src='images/google-plus-hover.png'" onmouseout="this.src='images/google-plus.png'"></a>
                 </div>
             </div>
@@ -156,7 +166,7 @@
             	<p>© COPYRIGHT 2014.</p>
             </div>
             <div class="col-lg-6 bottom-footer-right-p">
-            	<p>Design &amp; Developed by <a href="#">DTECH SYSTEMS.</a></p>
+            	<p>Designed &amp; Developed by D-Tech Systems <a href="#"><img src="images/dtech_logo_gray.png" alt="D-Tech Systems" /></a></p>
             </div>
         </div>
     </div>
@@ -166,8 +176,22 @@
 <script src="js/docs.min.js"></script>
 <script type="text/javascript">
 $('#carousel_fade').carousel({
-    interval: 3000
+    interval: 5000
+});
+
+</script>
+<!--
+<script type="text/javascript">
+jQuery(window).scroll(function(){
+    var fromTopPx = 200; // distance to trigger
+    var scrolledFromtop = jQuery(window).scrollTop();
+    if(scrolledFromtop > fromTopPx){
+        jQuery('html').addClass('#affix-top-part');
+    }else{
+        jQuery('html').removeClass('.slider-part');
+    }
 });
 </script>
+-->
 </body>
 </html>
