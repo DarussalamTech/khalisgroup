@@ -31,7 +31,7 @@ header { min-height:30px; width:100%; float:left; background:#f6c225; border-bot
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > a:hover { background:none !important; border-bottom-width: 1px -24px 1px -3px !important; border-bottom: solid #de312f !important; }
 
-.nav > li { padding: 10px 6px 1px 6px !important; }
+.nav > li { padding: 10px 5px 1px 5px !important; }
 
 .nav > li > a { padding: 0 2px !important; color:#261a05 !important; font-size:17px !important; font-family: 'Candara Regular'; text-shadow: 0.5px 0.866px 0 #fffbf1; }
 
