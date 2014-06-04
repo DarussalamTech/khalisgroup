@@ -251,3 +251,6 @@ ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; fon
 p.p_red_style{font-family:candara; font-size:36px; color:#d12c2c; font-style:italic;}
 p.p_style_vision{text-align:justify; margin-bottom:10px;}
 p.last_p{margin-bottom:30px;}
+.with_paragraph{width:842px; text-align:justify; color: #000000;
+    font-family: 'Candara Regular';
+    font-size: 15px;}
