@@ -242,3 +242,9 @@ ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; fon
 .cooking-oil-images { height:80px; }
 
 .oil-companies h4 { color:#c3913c; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 10px 0; margin: 0; }
+
+/****************************** CSS ADD BY HASSAN *************************************************/
+.heading_styling_1{color: #CD912B;
+    font-family: 'Candara';
+    font-size: 40px;
+	font-style:italic;}

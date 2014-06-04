@@ -47,9 +47,9 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .nav > li > a:visited { border-bottom: solid #57a746; }
 
-.fibre-banner { float:left; width:100%; background: #FFF url(../images/fibre-bg.png) repeat; height:400px; background-size:cover; position:relative; }
+.fibre-banner { float:left; width:100%; background: #FFF url(../images/fibre-bg.png) repeat; height:280px; background-size:cover; position:relative; }
 
-.fibre-banner-text { padding-top:270px; }
+.fibre-banner-text { padding-top:148px; }
 
 .fibre-banner-text h2 { background:#7bb944; color:#FFF; padding: 3px 10px; margin: 0; font-size:67px; font-family: 'MyriadPro-Bold'; }
 
