@@ -65,7 +65,7 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .slider-part h4 { font-family: 'Candara Bold'; font-size:41px; padding: 0; margin: 0; color:#787877; }
 
-.slider-part p { font-family:Arial, Helvetica, sans-serif; color:#787877; font-size:16px; padding: 0; margin: 0; }
+.slider-part p { font-family: 'Candara Regular'; color:#787877; font-size:16px; padding: 0; margin: 0; }
 
 .slider-right-img { position:absolute; right: 34px; bottom:10px; z-index:10000; }
 
