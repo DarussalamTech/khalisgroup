@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="SHORTCUT ICON" href="images/fevicon.png" />
-<link rel="icon" href="images/fevicon.png" type="image/ico" />
+<link rel="icon" href="images/khalis-fibre-fevicon.png" type="image/ico" />
 <link href="css/fibre-style.css" rel="stylesheet" />
 <link href="css/bootstrap.css" rel="stylesheet" />
 <link href="css/carousel.css" rel="stylesheet" />
@@ -72,7 +72,7 @@
         	<div class="khalis-fibre-text">
             	<h3>Khalis Fibre</h3>
                 <div class="col-lg-9">
-                    <h4>Khalis Fibre is a green project of Khalis</h4>
+                    <h4>Khalis Fibre is a Green Project of Khalis</h4>
                     <p>Group of Industries. Following the binding obligations of Kyoto Protocol, the fibre is manufactured using raw material which is a waste, otherwise, if not consumed this way. In a bid to contribute towards better environment and reduced greenhouse gases emissions, Khalis Fibre got started. It is manufactured using a recycling process. It recycles the PET (Polyethylene Terephthalate) which is discharged in lands. The PET bottles thrown in litter do nothing other than pollution. This initiative has made it a raw material for manufacturing Recycled Polyester Staple Fibre (RSPF) that is used in textile sector.</p>
                 </div>
                 <div class="col-lg-3">
@@ -81,14 +81,65 @@
             </div>
             <div class="khalis-fibre-text-2">
             	<h3>PET - RECYCLING</h3>
-                <div class="col-lg-12">
+                <div class="col-lg-9">
                     <h4>Poly-Ethylene Terephthalate (PET) Bottle is being used enormously throughout the world</h4>
                     <p>for soft drinks, mineral water and other packaging purposes.</p>
                     <p>These bottles are made of PET formula which is non-biodegradable. Plastic bottles are shielded from sunlight in landfills and they will not decompose for thousands of years causing environmental pollution and human health concerns. As we all know there are no sufficient arrangements in Pakistan to recycle/dispose off this hazardous water properly. Hence it is a serious threat to environment and public health.</p>
                     <p>Keeping in view the above scenario and for the sake of cleaner environment as well as health of general public of our beloved country the management of Khalis Group decided to install a PET bottle recycling plant to make “Polyester Staple Fibre” which is also a key input material of textile industry. By the grace of Allah (Almighty), we have achieved our goal and generated employment for more than 500 people.</p>
                     <p>It is pertinent to mention here that it is one of its kind project in Pakistan and playing a key role in reducing pollution and serving textile industry at the same time.</p>
+                    <h4>Fibre Specifications</h4>
+                    <p>We are producing the following items (at present):</p>
+                    <table class="table_value" cellpadding="0" cellspacing="0" border="1" width="200px;">
+                        	<tr>
+                            	<td>Denier</td>
+                                <td>Cut Length</td>
+                            </tr>
+                    	<tr>
+                        	<td>1.4</td>
+                            <td>38mm</td>
+                        </tr>     
+                        <tr>
+                        	<td>1.4</td>
+                            <td>51mm</td>
+                        </tr>    
+                        <tr>
+                        	<td>1.4</td>
+                            <td>44mm</td>
+                        </tr>    
+                        <tr>
+                        	<td>3.5</td>
+                            <td>102mm</td>
+                        </tr>    
+                        <tr>
+                        	<td>10</td>
+                            <td>72mm</td>
+                        </tr>                   	
+                    </table>
+                    <p>We also produce the following:</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="images/spam_bottle.jpg" alt="Raw Bottle" class="raw-bottle" />
                 </div>
             </div>
+            <div class="khalis-fibre-text-2">
+            	<h3>Certifications of Khalis Fibre</h3>
+                <div class="container popup-img">
+                     <ul class="row">
+                          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img class="cert_1" src="images/moody_certificates_khalis_fibre_page_1.jpg" alt="certificate" /></li>
+                          <li class="col-lg-3 col-md-2 col-sm-3 col-xs-4"><img class="cert_2" src="images/moody_certificates_khalis_fibre_page_2.jpg" alt="certificate" /></li>
+                          <li class="col-lg-3 col-md-2 col-sm-3 col-xs-4"><img class="cert_3" src="images/union-control.jpg" alt="certificate" /></li>
+                     </ul>
+                </div>
+                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                 	<button type='button' class='close' data-dismiss='alert'>×</button>
+                 	<div class="modal-dialog">
+                    	<div class="modal-content">
+                        	<div class="modal-body">
+                            </div>
+                      	</div><!-- /.modal-content -->
+                  	</div><!-- /.modal-dialog -->
+              	</div><!-- /.modal -->
+         	</div>
         </div>
     </div>
 </div>
@@ -102,6 +153,7 @@
                     	<li><a href="home.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="product.html">Products</a></li>
+                        <li><a href="khalis-welfare.html">Khalis Welfare</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -139,5 +191,77 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/docs.min.js"></script>
+<script>
+        $(document).ready(function(){        
+            $('li img').on('click',function(){
+                var src = $(this).attr('src');
+                var img = '<img src="' + src + '" class="img-responsive"/>';
+                
+                //start of new code new code
+                var index = $(this).parent('li').index();   
+                
+                var html = '';
+                html += img;                
+                html += '<div style="height:25px;clear:both;display:block;">';
+                html += '<a class="controls next" href="'+ (index+2) + '">next &raquo;</a>';
+                html += '<a class="controls previous" href="' + (index) + '">&laquo; prev</a>';
+                html += '</div>';
+                
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function(){
+                    $('#myModal .modal-body').html(html);
+                    //new code
+                    $('a.controls').trigger('click');
+                })
+                $('#myModal').on('hidden.bs.modal', function(){
+                    $('#myModal .modal-body').html('');
+                });
+                
+                
+                
+                
+           });
+        
+        })
+        
+        //new code
+        $(document).on('click', 'a.controls', function(){
+            var index = $(this).attr('href');
+            var src = $('ul.row li:nth-child('+ index +') img').attr('src');             
+            
+            $('.modal-body img').attr('src', src);
+            
+            var newPrevIndex = parseInt(index) - 1; 
+            var newNextIndex = parseInt(newPrevIndex) + 2; 
+            
+            if($(this).hasClass('previous')){               
+                $(this).attr('href', newPrevIndex); 
+                $('a.next').attr('href', newNextIndex);
+            }else{
+                $(this).attr('href', newNextIndex); 
+                $('a.previous').attr('href', newPrevIndex);
+            }
+            
+            var total = $('ul.row li').length + 1; 
+            //hide next button
+            if(total === newNextIndex){
+                $('a.next').hide();
+            }else{
+                $('a.next').show()
+            }            
+            //hide previous button
+            if(newPrevIndex === 0){
+                $('a.previous').hide();
+            }else{
+                $('a.previous').show()
+            }
+            
+            
+            return false;
+        });
+        
+         
+        
+    </script>
 </body>
 </html>

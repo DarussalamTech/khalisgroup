@@ -212,3 +212,23 @@ ul.dropdown-menu li a:hover { background: none !important; }
 ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; font-family: 'Candara Regular'; }
 
 .khalis-fibre-logo { margin-top:10px; }
+
+.raw-bottle { border:4px solid #CCC; }
+
+.cert_1 { width:200px; border:4px solid #ccc; margin-top:10px; }
+
+.cert_2 { width:204px; border:4px solid #ccc; margin-left:80px; margin-top:10px; }
+
+.cert_3 { width:204px; border:4px solid #ccc; margin-left:80px; margin-top:10px; }
+
+.table_value { font-family:'Candara Regular'; font-size:16px; color:#787877; text-align:center; }
+
+.table_value tr:first-child { font-weight:bold; }
+
+.popup-img ul { padding:0 0 0 0; margin:0 0 0 0; }
+
+.popup-img ul li { list-style:none; margin-bottom:25px; }
+
+.popup-img ul li img { cursor: pointer; }
+
+.next { float:right !important; text-align:right; }
