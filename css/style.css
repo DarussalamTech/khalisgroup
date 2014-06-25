@@ -252,13 +252,18 @@ ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; fon
 .oil-companies h4 { color:#c3913c; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 10px 0; margin: 0; }
 
 /****************************** CSS ADD BY HASSAN *************************************************/
-.heading_styling_1{color: #CD912B;
-    font-family: 'Candara';
-    font-size: 40px;
-	font-style:italic;}
-p.p_red_style{font-family:candara; font-size:36px; color:#d12c2c; font-style:italic;}
-p.p_style_vision{text-align:justify; margin-bottom:10px;}
-p.last_p{margin-bottom:30px;}
-.with_paragraph{width:842px; text-align:justify; color: #000000;
-    font-family: 'Candara Regular';
-    font-size: 15px;}
+.heading_styling_1 { color: #CD912B; font-family: 'Candara'; font-size: 40px; font-style:italic; }
+
+p.p_red_style { font-family:candara; font-size:36px; color:#d12c2c; font-style:italic; }
+
+p.p_style_vision { text-align:justify; margin-bottom:10px; }
+
+p.last_p { margin-bottom:30px; }
+
+.with_paragraph { width:842px; text-align:justify; color: #000000; font-family: 'Candara Regular'; font-size: 15px; }
+
+@media all (max-width:1500px)
+{	
+	.khalis_img { padding-top:4%; }
+	
+}
