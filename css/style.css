@@ -262,8 +262,4 @@ p.last_p { margin-bottom:30px; }
 
 .with_paragraph { width:842px; text-align:justify; color: #000000; font-family: 'Candara Regular'; font-size: 15px; }
 
-@media all (max-width:1500px)
-{	
-	.khalis_img { padding-top:4%; }
-	
-}
+@media (max-width: 1500px){ .khalis_img { padding-top:3% !important; } }
