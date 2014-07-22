@@ -47,13 +47,13 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .nav > li > a:visited { border-bottom: solid #57a746; }
 
-.fibre-banner { float:left; width:100%; background: #FFF url(../images/fibre-bg.png) repeat; height:280px; background-size:cover; position:relative; }
+.fibre-banner { float:left; width:100%; /*background: #FFF url(../images/fibre-bg.png) repeat;*/ height:280px; background-size:cover; position:relative; }
 
 .fibre-banner-text { padding-top:148px; }
 
-.fibre-banner-text h2 { background:#7bb944; color:#FFF; padding: 3px 10px; margin: 0; font-size:67px; font-family: 'MyriadPro-Bold'; }
+.fibre-banner-text h2 { background:#7bb944; color:#FFF; padding: 3px 10px; margin: 0; font-size:67px; font-family:calibri; }
 
-.fibre-banner-text h3 { background:#4da548; color:#FFF; padding: 5px 20px; margin: 0; font-family: 'BebasNeue Book'; font-size:38px; }
+.fibre-banner-text h3 { background:#4da548; color:#FFF; padding: 5px 20px; margin: 0; font-family:calibri; font-size:38px; }
 
 .khalis-fibre-text { padding-top:20px; padding-bottom:15px; border-bottom: 1px solid #d5d5d5; float:left; }
 
@@ -61,23 +61,23 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .slider-part { float:left; width:100%; background: #FFF; min-height:534px; background-size:cover; padding:20px 0; position:relative; }
 
-.slider-part h3 { font-family: 'BebasNeue Bold'; color:#7bb944; font-size:52px; padding: 0 0 0 15px; margin: 0; }
+.slider-part h3 { font-family:calibri; color:#7bb944; font-size:52px; padding: 0 0 0 15px; margin: 0; }
 
-.slider-part h4 { font-family: 'Candara Bold'; font-size:41px; padding: 0; margin: 0; color:#787877; }
+.slider-part h4 { font-family:calibri; font-size:41px; padding: 0; margin: 0; color:#787877; }
 
-.slider-part p { font-family: 'Candara Regular'; color:#787877; font-size:16px; padding: 0; margin: 0; }
+.slider-part p { font-family:calibri; color:#787877; font-size:16px; padding: 0; margin: 0; }
 
 .slider-right-img { position:absolute; right: 34px; bottom:10px; z-index:10000; }
 
 .slider-content { padding-top: 310px; margin-left:-25px; }
 
-.slider-content h2 { padding: 0; margin: 0; color:#bc2628; font-size:24px; font-family: 'Candara Bold'; line-height:7px;  }
+.slider-content h2 { padding: 0; margin: 0; color:#bc2628; font-size:24px; font-family: calibri; line-height:7px;  }
 
-.slider-content h3 { padding: 0 0 5px 0; margin: 0; color:#cd912b; font-size:60px; font-family: 'Candara Bold'; line-height:64px; }
+.slider-content h3 { padding: 0 0 5px 0; margin: 0; color:#cd912b; font-size:60px; font-family: calibri; line-height:64px; }
 
-.slider-content p { padding: 0 0px 0 0; margin: 0; color:#383838; font-family: 'Candara Regular'; font-size:15px; line-height:15px; }
+.slider-content p { padding: 0 0px 0 0; margin: 0; color:#383838; font-family: calibri; font-size:15px; line-height:15px; }
 
-.khalis-companies h4 { font-family: 'Candara Bold'; color:#cd912b; font-size:29px; padding: 0; margin: 0; border-bottom: 1px solid #efd48c; }
+.khalis-companies h4 { font-family: calibri; color:#cd912b; font-size:29px; padding: 0; margin: 0; border-bottom: 1px solid #efd48c; }
 
 .khalis-items { padding: 20px 0 !important; }
 
@@ -85,9 +85,9 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .item-right { float:left; width:200px; padding: 0 0 0 5px; margin: 0; }
 
-.item-right h3 { padding: 0 20px 0 0; margin: 0; color:#cd912b; font-family: 'Candara Bold'; font-size:24px; line-height:18px; }
+.item-right h3 { padding: 0 20px 0 0; margin: 0; color:#cd912b; font-family: calibri; font-size:24px; line-height:18px; }
 
-.item-right p { padding: 0; margin: 7px 0; color:#454444; font-family: 'Candara Regular'; line-height:13px; font-size:13px; }
+.item-right p { padding: 0; margin: 7px 0; color:#454444; font-family: calibri; line-height:13px; font-size:13px; }
 
 .item-right a img { padding: 15px 0 0 0; margin: 0; }
 
@@ -103,7 +103,7 @@ footer { min-height:245px; background:#7bb944; width:100%; float:left; padding: 
 
 .quick-links ul li { padding: 0; margin: 0; list-style:none; line-height:17px; }
 
-.quick-links ul li a { color:#000; font-size:15px; font-family: 'Candara Regular'; padding: 0 0 0 20px; margin: 0; text-decoration:none; }
+.quick-links ul li a { color:#000; font-size:15px; font-family: calibri; padding: 0 0 0 20px; margin: 0; text-decoration:none; }
 
 .quick-links ul li a:hover { color:#ffffff; }
 
@@ -219,7 +219,7 @@ ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; fon
 
 .cert_2 { width:204px; border:4px solid #ccc; margin-top:10px; }
 
-.cert_3 { width:204px; border:4px solid #ccc; margin: 10px auto 0 auto; text-align:center; }
+.cert_3 { width:204px; border:4px solid #ccc; margin: 10px auto 0 auto; text-align:center; height:45px; }
 
 .table_value { font-family:'Candara Regular'; font-size:16px; color:#787877; text-align:center; }
 
@@ -240,3 +240,11 @@ ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; fon
 .next { float:right !important; text-align:right; }
 
 .control-img { text-align:center; width:100%; margin: 0 auto; display:inline-flex; }
+.carousel-inner.fiber_slider{width:100% !important; height:280px; background:none;}
+.carousel-inner.fiber_slider.carousel-inner > .item > img{min-width:100% !important;}
+.container.fiber_slider_text{position:absolute; z-index:9999; width:100%;}
+.fibre-banner-text{width:440px;}
+.row.fiber_row{margin:0 auto; width:52%;}
+@media (max-width:1366px) {
+	.row.fiber_row{width:72%;}
+	}
