@@ -11,6 +11,14 @@
 
 body .khalis-main-page { background: #FFF url(../images/comming_soon_pic.png) repeat; background-size:cover; width:100%; height:100%; overflow:hidden; }
 
+.khalis-index { background:url(../images/khalisgroup_landingpage.png) no-repeat; background-position:center; min-height:496px; }
+
+.toil { margin-top:300px; }
+
+.toil-img { float:right; }
+
+.fibre-img { float:left; }
+
 .khalis_img { width:100%; height:100%; text-align:center; position:relative; background:url(../images/heart_pic.png) no-repeat right bottom; padding-top:8%; padding-bottom:9%; }
 
 .khalis_img img { margin: 0 auto; }
@@ -244,13 +252,14 @@ ul.dropdown-menu li a { color:#261a05 !important; font-size:17px !important; fon
 .oil-companies h4 { color:#c3913c; font-size:20px; font-family: 'Candara Bold'; padding: 10px 0 10px 0; margin: 0; }
 
 /****************************** CSS ADD BY HASSAN *************************************************/
-.heading_styling_1{color: #CD912B;
-    font-family: 'Candara';
-    font-size: 40px;
-	font-style:italic;}
-p.p_red_style{font-family:candara; font-size:36px; color:#d12c2c; font-style:italic;}
-p.p_style_vision{text-align:justify; margin-bottom:10px;}
-p.last_p{margin-bottom:30px;}
-.with_paragraph{width:842px; text-align:justify; color: #000000;
-    font-family: 'Candara Regular';
-    font-size: 15px;}
+.heading_styling_1 { color: #CD912B; font-family: 'Candara'; font-size: 40px; font-style:italic; }
+
+p.p_red_style { font-family:candara; font-size:36px; color:#d12c2c; font-style:italic; }
+
+p.p_style_vision { text-align:justify; margin-bottom:10px; }
+
+p.last_p { margin-bottom:30px; }
+
+.with_paragraph { width:842px; text-align:justify; color: #000000; font-family: 'Candara Regular'; font-size: 15px; }
+
+@media (max-width: 1500px){ .khalis_img { padding-top:3% !important; } }

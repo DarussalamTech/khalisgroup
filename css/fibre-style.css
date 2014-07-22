@@ -65,7 +65,7 @@ header { min-height:30px; width:100%; float:left; background:#57a746; }
 
 .slider-part h4 { font-family: 'Candara Bold'; font-size:41px; padding: 0; margin: 0; color:#787877; }
 
-.slider-part p { font-family:Arial, Helvetica, sans-serif; color:#787877; font-size:16px; padding: 0; margin: 0; }
+.slider-part p { font-family: 'Candara Regular'; color:#787877; font-size:16px; padding: 0; margin: 0; }
 
 .slider-right-img { position:absolute; right: 34px; bottom:10px; z-index:10000; }
 
@@ -212,3 +212,31 @@ ul.dropdown-menu li a:hover { background: none !important; }
 ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; font-family: 'Candara Regular'; }
 
 .khalis-fibre-logo { margin-top:10px; }
+
+.raw-bottle { border:4px solid #CCC; }
+
+.cert_1 { width:200px; border:4px solid #ccc; margin-top:10px; }
+
+.cert_2 { width:204px; border:4px solid #ccc; margin-top:10px; }
+
+.cert_3 { width:204px; border:4px solid #ccc; margin: 10px auto 0 auto; text-align:center; }
+
+.table_value { font-family:'Candara Regular'; font-size:16px; color:#787877; text-align:center; }
+
+.table_value tr:first-child { font-weight:bold; }
+
+.popup-img { text-align:center; margin: 0 auto; }
+
+.popup-img ul { padding:0 0 0 0; margin:0 0 0 0; }
+
+.popup-img ul li { list-style:none; margin-bottom:25px; }
+
+.popup-img ul li:first-child { margin-left:100px; }
+
+.popup-img ul li:last-child { margin-left:70px; }
+
+.popup-img ul li img { cursor: pointer; }
+
+.next { float:right !important; text-align:right; }
+
+.control-img { text-align:center; width:100%; margin: 0 auto; display:inline-flex; }

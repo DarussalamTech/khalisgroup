@@ -14,15 +14,20 @@
 <div class="khalis-main-page">
     <div class="khalis_img">
     	<div class="container">
-        	<img src="images/khalisgroup_landingpage.png" alt="khalis group" class="img-responsive" />
+        	<div class="khalis-index">
+            	<a href="khalis_tahir_umar.html" class="col-lg-4 toil"><img src="images/toil-index.png" class="toil-img" alt="TOIL" /></a>
+                <a href="khalis_oil_ghee.html" class="col-lg-4 toil"><img src="images/kogil-index.png" class="" alt="KOGIL" /></a>
+                <a href="khalis-fibre.html" class="col-lg-4 toil"><img src="images/fibre-index.png" class="fibre-img" alt="Fibre" /></a>
+            </div>
             <a href="home.html" class="enter-btn"><img src="images/enter-landing-page-btn.png" onmouseover="this.src='images/enter-landing-page-btn-hover.png'" onmouseout="this.src='images/enter-landing-page-btn.png'" alt="Enter" class="img-responsive"></a>
         </div>
     </div>
 </div>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
 <script type="text/javascript">
 function redirect(){
-   window.location = $('a').attr('href');
+   window.location = $('.enter-btn').attr('href');
 }
 
 setTimeout(redirect, 10000);
