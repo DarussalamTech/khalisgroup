@@ -219,7 +219,7 @@ ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; fon
 
 .cert_2 { width:204px; border:4px solid #ccc; margin-top:10px; }
 
-.cert_3 { width:204px; border:4px solid #ccc; margin: 10px auto 0 auto; text-align:center; height:45px; }
+.cert_3 { width:204px; margin: 10px auto 0 auto; text-align:center; height:45px; }
 
 .table_value { font-family:'Candara Regular'; font-size:16px; color:#787877; text-align:center; }
 
@@ -239,7 +239,9 @@ ul.dropdown-menu li a { color:#57a746 !important; font-size:17px !important; fon
 
 .next { float:right !important; text-align:right; }
 
-.control-img { text-align:center; width:100%; margin: 0 auto; display:inline-flex; }
+.logo-global { width:100%; float:left; padding: 0; margin: 20px 0 10px 0; }
+
+.control-img { text-align:center; width:100%; margin: 0 auto; }
 .carousel-inner.fiber_slider{width:100% !important; height:280px; background:none;}
 .carousel-inner.fiber_slider.carousel-inner > .item > img{min-width:100% !important;}
 .container.fiber_slider_text{position:absolute; z-index:9999; width:100%;}
